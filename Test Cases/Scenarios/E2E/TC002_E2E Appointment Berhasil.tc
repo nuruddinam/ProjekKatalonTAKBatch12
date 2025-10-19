@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_E2E Appointment Berhasil</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>35cf5908-84dd-4ba9-aeb2-4cfce631764d</testCaseGuid>
+</TestCaseEntity>
