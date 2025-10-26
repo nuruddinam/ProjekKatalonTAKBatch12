@@ -6,4 +6,18 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>e244429b-420b-42bc-8d16-19150ead35e8</testCaseGuid>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>def4825b-f531-40bf-a58c-2daa4e0091c0</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
+      <description></description>
+      <id>0b57dd2a-806f-4b8c-a9ed-6281aa01728f</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

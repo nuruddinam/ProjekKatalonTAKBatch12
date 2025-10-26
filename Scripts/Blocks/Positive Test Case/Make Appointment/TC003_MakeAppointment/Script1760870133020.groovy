@@ -17,18 +17,75 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.selectOptionByValue(findTestObject('Page_MakeAppointment/select_TokyoCURA_btn'), 'Hongkong CURA Healthcare Center', 
-    true)
+'User memilih Fasilitas yang diinginkan'
+WebUI.selectOptionByValue(findTestObject('Page_MakeAppointment/select_Facility'), Facility, true)
 
-WebUI.click(findTestObject('Page_MakeAppointment/ApplyReadmission_radioBtn'))
+//WebUI.check(findTestObject('Page_MakeAppointment/input_Readmission'))
+'User melakukan check Hospital Readmission'
+if (Readmission == true) {
+    WebUI.check(findTestObject('Page_MakeAppointment/input_Readmission'))
+} else {
+    WebUI.uncheck(findTestObject('Page_MakeAppointment/input_Readmission'))
+}
 
-WebUI.click(findTestObject('Object Repository/RecordPlay/Page_MakeAppointment/input_Medicaid_programs'))
+'User memilih Program Healthcare yang diinginkan'
+//WebUI.check(findTestObject('Object Repository/RecordPlay/Page_MakeAppointment/input_Medicaid_programs'))
 
-WebUI.click(findTestObject('Page_MakeAppointment/VisitDate_input'))
+select_radio = Programs
+switch (select_radio) {
+	case 'Medicaid':
+	WebUI.check(findTestObject('Page_MakeAppointment/input_Medicaid_programs'))
+	break
+	case 'Medicare':
+	WebUI.check(findTestObject('Page_MakeAppointment/input_Medicare_programs'))
+	break
+	case 'None' :
+	WebUI.check(findTestObject('Page_MakeAppointment/input_None_programs'))
+	break
+	default :
+	WebUI.check(findTestObject('Page_MakeAppointment/input_None_programs'))
+	break
+}
 
-WebUI.click(findTestObject('Page_MakeAppointment/td_20'))
+'User memilih Tanggal Kunjungan'
+WebUI.setText(findTestObject('Page_MakeAppointment/input_VisitDate'), VisitDate)
 
-WebUI.setText(findTestObject('Page_MakeAppointment/Comment_textArea'), 'Janjian Dokter')
+'User memasukkan Komentar'
+WebUI.setText(findTestObject('Page_MakeAppointment/input_Comment'), Komentar)
 
+'User mengklik Tombol Book Appointment'
 WebUI.click(findTestObject('Page_MakeAppointment/Book Appointment_Btn'))
 
+WebUI.waitForElementVisible(findTestObject('Page_AppointmentConfirmation/Pleasebeinformed_text'), 30)
+
+WebUI.verifyElementVisible(findTestObject('Page_AppointmentConfirmation/Pleasebeinformed_text'))
+
+WebUI.takeScreenshot(FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/lbl_Facility'), Facility)
+
+WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/lbl_VisitDate'), VisitDate)
+
+WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/lbl_Comment'), Komentar)
+
+if (Readmission == true) {
+    WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/lbl_Readmission'), 'Yes')
+} else {
+    WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/lbl_Readmission'), 'No', FailureHandling.OPTIONAL)
+}
+
+select_radio = Programs
+switch (select_radio) {
+	case 'Medicaid':
+	WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/lbl_HealthcareProgram'), Programs)
+	break
+	case 'Medicare':
+	WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/lbl_HealthcareProgram'), Programs)
+	break
+	case 'None' :
+	WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/lbl_HealthcareProgram'), Programs)
+	break
+	default :
+	WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/lbl_HealthcareProgram'), 'None')
+	break
+}

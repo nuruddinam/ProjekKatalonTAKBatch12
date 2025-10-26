@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Comment_textArea</name>
+   <name>input_None_programs</name>
    <tag></tag>
-   <elementGuidId>59b54622-e6a7-4707-8f83-e9f8ab2e3a0a</elementGuidId>
+   <elementGuidId>dcc3b139-6677-4a73-9654-f9e388fa66b2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='txt_comment']</value>
+         <key>CSS</key>
+         <value>#radio_program_none</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#txt_comment</value>
+         <key>XPATH</key>
+         <value>//input[@id='radio_program_none']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,87 +22,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
-      <webElementGuid>2ce41fb7-d14a-4571-8e60-9fa650bd9e53</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>d9c415d5-074a-4592-8a73-7d76b48cc250</webElementGuid>
+      <value>input</value>
+      <webElementGuid>2c9665d5-cb08-4a4e-bce1-ae16125faaf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>txt_comment</value>
-      <webElementGuid>eb52f4f4-3532-4d9f-956a-e8bd9a4d8fab</webElementGuid>
+      <value>radio</value>
+      <webElementGuid>7da6419e-09b8-4f12-a829-d944151c89a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>comment</value>
-      <webElementGuid>8111cb92-c75c-4ae8-8f76-20b50a4eea68</webElementGuid>
+      <value>programs</value>
+      <webElementGuid>716fd88e-ecb5-4a39-a834-204580c118fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Comment</value>
-      <webElementGuid>409bcba8-0fdd-4a0b-9ca8-cbb4ec2e4b36</webElementGuid>
+      <value>radio_program_none</value>
+      <webElementGuid>79a5a9c4-352f-4f8d-bbdf-588a79f5c736</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>rows</name>
+      <name>value</name>
       <type>Main</type>
-      <value>10</value>
-      <webElementGuid>367b971f-5cc9-416d-a1ee-3666042e8127</webElementGuid>
+      <value>None</value>
+      <webElementGuid>fb34f82f-d587-4833-a271-cf810e2a3c97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txt_comment&quot;)</value>
-      <webElementGuid>9555b80b-6f38-4901-9e35-b3a6613e96d7</webElementGuid>
+      <value>id(&quot;radio_program_none&quot;)</value>
+      <webElementGuid>21af9d05-c5ed-4344-beb2-72ffbd3bfd09</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='txt_comment']</value>
-      <webElementGuid>feb5c741-0f0a-4841-a27d-849a90dac8c0</webElementGuid>
+      <value>//input[@id='radio_program_none']</value>
+      <webElementGuid>5946c84e-7f80-4015-9287-f0817c61de7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='appointment']/div/div/form/div[5]/div/textarea</value>
-      <webElementGuid>19291270-d0e4-4f50-941b-a63b6b94c036</webElementGuid>
+      <value>//section[@id='appointment']/div/div/form/div[3]/div/label[3]/input</value>
+      <webElementGuid>c1f1f6be-a3b9-4412-acca-55a475d5d99f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
-      <webElementGuid>d9647ae2-b811-419f-9f4b-ab3158641d12</webElementGuid>
+      <value>//label[3]/input</value>
+      <webElementGuid>89b59b78-060c-44d9-8a3e-1191f46e9d0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//textarea[@id = 'txt_comment' and @name = 'comment' and @placeholder = 'Comment']</value>
-      <webElementGuid>a81df51a-eff8-4645-abeb-5e4489b65dce</webElementGuid>
+      <value>//input[@type = 'radio' and @name = 'programs' and @id = 'radio_program_none']</value>
+      <webElementGuid>e82f9be8-cea9-43b1-8262-600bdd43764c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

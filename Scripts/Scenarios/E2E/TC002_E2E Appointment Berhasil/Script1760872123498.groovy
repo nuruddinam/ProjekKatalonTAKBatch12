@@ -17,14 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.comment('TC Membuka Browser')
+
 WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Open_Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.comment('Story : Success Login to CURA System')
 
 WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Login/TC002_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.comment('Story Book an Appointment')
+
 WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Make Appointment/TC003_MakeAppointment'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Appointment Confirmation/TC004_AppointmentConfirmation'), [:], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.comment('TC Menutup Browser')
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Close_Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

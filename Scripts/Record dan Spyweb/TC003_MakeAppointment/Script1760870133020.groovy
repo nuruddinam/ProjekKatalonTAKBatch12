@@ -19,18 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Record dan Spyweb/TC002_Login_Spyweb'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Page_MakeAppointment/select_TokyoCURA_btn'), 'Hongkong CURA Healthcare Center', 
+WebUI.selectOptionByValue(findTestObject('Page_MakeAppointment/select_Facility'), 'Hongkong CURA Healthcare Center', 
     true)
 
-WebUI.click(findTestObject('Page_MakeAppointment/ApplyReadmission_radioBtn'))
+WebUI.click(findTestObject('Page_MakeAppointment/input_Readmission'))
 
 WebUI.click(findTestObject('Object Repository/RecordPlay/Page_MakeAppointment/input_Medicaid_programs'))
 
-WebUI.click(findTestObject('Page_MakeAppointment/VisitDate_input'))
+WebUI.click(findTestObject('Page_MakeAppointment/input_VisitDate'))
 
 WebUI.click(findTestObject('Page_MakeAppointment/td_20'))
 
-WebUI.setText(findTestObject('Page_MakeAppointment/Comment_textArea'), 'Janjian Dokter')
+WebUI.setText(findTestObject('Page_MakeAppointment/input_Comment'), 'Janjian Dokter')
 
 WebUI.click(findTestObject('Page_MakeAppointment/Book Appointment_Btn'))
 

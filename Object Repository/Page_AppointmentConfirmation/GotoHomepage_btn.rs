@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>GotoHomepage_btn</name>
+   <tag></tag>
+   <elementGuidId>00924430-9f41-4694-ad6d-151109f5af9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-default</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='summary']/div/div/div[7]/p/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0f0b1dc4-0523-48aa-939d-a0e4dcc1b50f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default</value>
+      <webElementGuid>601e004b-022c-4d0f-8114-fdced9857be3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://katalon-demo-cura.herokuapp.com/</value>
+      <webElementGuid>54642e86-9657-4609-beaf-8fa645a245c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Go to Homepage</value>
+      <webElementGuid>c33cfd79-34d1-4b98-be8c-eac5db5c5725</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;summary&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12&quot;]/p[@class=&quot;text-center&quot;]/a[@class=&quot;btn btn-default&quot;]</value>
+      <webElementGuid>f1eadad5-e8f5-4681-a75c-ec582c24f97b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='summary']/div/div/div[7]/p/a</value>
+      <webElementGuid>284419cb-ac44-4970-b69a-b6a7e6a24ecc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Go to Homepage')]</value>
+      <webElementGuid>aa15f4aa-d055-44f6-93db-1fa2b14de93a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/following::a[1]</value>
+      <webElementGuid>25816679-8042-4ffe-b54c-43d5820080ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Visit Date'])[1]/following::a[1]</value>
+      <webElementGuid>2b50d8c7-6a0c-41c4-a33d-788b22868d00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/preceding::a[1]</value>
+      <webElementGuid>81c458ff-1294-4950-9735-53bc3e97ee2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(678) 813-1KMS'])[1]/preceding::a[1]</value>
+      <webElementGuid>1c97329f-a022-43c2-afa7-ae61109bc0c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Go to Homepage']/parent::*</value>
+      <webElementGuid>89695ed6-fac1-4b04-a031-ead4389e87bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://katalon-demo-cura.herokuapp.com/')]</value>
+      <webElementGuid>95b54a66-5238-490f-8c7a-63f8dfce1175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/a</value>
+      <webElementGuid>38b91148-380d-44d3-ace2-a9c6536bc538</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://katalon-demo-cura.herokuapp.com/' and (text() = 'Go to Homepage' or . = 'Go to Homepage')]</value>
+      <webElementGuid>7762dd87-4189-43e6-bb28-d74f9309f8b2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

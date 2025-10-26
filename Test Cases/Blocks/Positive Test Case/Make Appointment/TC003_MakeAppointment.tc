@@ -6,4 +6,69 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>ea180dc8-202e-4f18-a96a-742c744daa2c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f6b77288-15f3-4843-8da2-8b334dc87df1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94314dc3-f99c-4bf8-b7ef-8fc2cb766096</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ac88caec-96e6-481a-a9e8-91e0b5c5c6a7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb7b427f-0574-49fe-8023-70456f058fde</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>25720da3-fa56-414e-b197-18826da6283d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>f6b77288-15f3-4843-8da2-8b334dc87df1</id>
+      <masked>false</masked>
+      <name>Facility</name>
+   </variable>
+   <variable>
+      <defaultValue>'02/12/2025'</defaultValue>
+      <description></description>
+      <id>94314dc3-f99c-4bf8-b7ef-8fc2cb766096</id>
+      <masked>false</masked>
+      <name>VisitDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ini Komentar dari Local Variabel'</defaultValue>
+      <description></description>
+      <id>ac88caec-96e6-481a-a9e8-91e0b5c5c6a7</id>
+      <masked>false</masked>
+      <name>Komentar</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>cb7b427f-0574-49fe-8023-70456f058fde</id>
+      <masked>false</masked>
+      <name>Readmission</name>
+   </variable>
+   <variable>
+      <defaultValue>'None'</defaultValue>
+      <description></description>
+      <id>25720da3-fa56-414e-b197-18826da6283d</id>
+      <masked>false</masked>
+      <name>Programs</name>
+   </variable>
 </TestCaseEntity>

@@ -4,4 +4,18 @@
    <name>Dev</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.demoblaze.com/index.html'</initValue>
+      <name>baseUrl</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'John Doe'</initValue>
+      <name>username</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ApplyReadmission_radioBtn</name>
+   <name>input_Readmission</name>
    <tag></tag>
    <elementGuidId>ba458431-83d7-4fe3-a5e8-00d2dc59a7cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='chk_hospotal_readmission']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#chk_hospotal_readmission</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='chk_hospotal_readmission']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

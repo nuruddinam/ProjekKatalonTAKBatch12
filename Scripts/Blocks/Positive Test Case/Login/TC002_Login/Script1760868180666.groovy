@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Page_Home/makeAppoint_btn'))
 
-WebUI.setText(findTestObject('Page_Login/Username_textField'), 'John Doe')
+WebUI.setText(findTestObject('Page_Login/Username_textField'), username)
 
-WebUI.setEncryptedText(findTestObject('Page_Login/Password_textField'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Page_Login/Password_textField'), password)
 
 WebUI.click(findTestObject('Page_Login/Login_btn'))
 
