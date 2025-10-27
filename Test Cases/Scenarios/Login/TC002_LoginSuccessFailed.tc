@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC002_Login</name>
+   <name>TC002_LoginSuccessFailed</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e244429b-420b-42bc-8d16-19150ead35e8</testCaseGuid>
+   <testCaseGuid>4e3bba5c-d546-4afe-aee0-8de46b85f53e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>def4825b-f531-40bf-a58c-2daa4e0091c0</variableId>
+      <variableId>ab19e7e5-0cd6-4b00-bad9-bee06f9233d4</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0b57dd2a-806f-4b8c-a9ed-6281aa01728f</variableId>
+      <variableId>3a3fac8c-8673-460a-92b4-1aa8e68d8beb</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'John Doe'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>def4825b-f531-40bf-a58c-2daa4e0091c0</id>
+      <id>ab19e7e5-0cd6-4b00-bad9-bee06f9233d4</id>
       <masked>false</masked>
-      <name>username</name>
+      <name>Username</name>
    </variable>
    <variable>
-      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>0b57dd2a-806f-4b8c-a9ed-6281aa01728f</id>
+      <id>3a3fac8c-8673-460a-92b4-1aa8e68d8beb</id>
       <masked>false</masked>
-      <name>password</name>
+      <name>Password</name>
    </variable>
 </TestCaseEntity>

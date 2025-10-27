@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://www.demoblaze.com/index.html'</initValue>
+      <initValue>'https://katalon-demo-cura.herokuapp.com/'</initValue>
       <name>baseUrl</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
