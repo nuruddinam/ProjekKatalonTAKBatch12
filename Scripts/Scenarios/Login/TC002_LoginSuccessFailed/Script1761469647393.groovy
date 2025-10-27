@@ -17,9 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Open_Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.baseUrl)
+WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Login/Login Success Failed Blocks'), [('Username') : Username
+        , ('Password') : Password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Close_Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
